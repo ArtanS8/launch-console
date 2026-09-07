@@ -1,13 +1,13 @@
-def show_about_me(name):
+def showAboutMe(name):
     print(f"Hi my name is {name} and I am a senior at JPS high school. I love to play sports for pleasure. In my free time, I like creating apps from ideas I had during the week.")
 
 
-def show_my_goals():
+def showMyGoals():
     print("My goals are to be successful in life. To do that I want to create "
           "products that benefit others and make this world a much better place.")
 
 
-def show_fun_fact():
+def showFunFact():
     print("Fun fact: I'm left-handed! Only about 15% of people in the world are left-handed.")
 
 
@@ -26,11 +26,11 @@ def main():
         choice = input("Choose an option (1-4): ")
 
         if choice == "1":
-            show_about_me(name)
+            showAboutMe(name)
         elif choice == "2":
-            show_my_goals()
+            showMyGoals()
         elif choice == "3":
-            show_fun_fact()
+            showFunFact()
         elif choice == "4":
             print(f"Goodbye, {name}! Thanks for stopping by.")
             break
